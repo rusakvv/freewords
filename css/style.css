@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Mono|PT+Serif&subset=latin,cyrillic);
+/* font-family: 'PT Sans', sans-serif, Arial;
+font-family: 'PT Mono', Arial;
+font-family: 'PT Serif', serif, Times New Roman; */
+
+body {
+font-family: 'PT Sans', sans-serif, Arial;
+}
+
+header img {
+	width: 200px;
+	padding: 20px 0;
+	}
+a {
+	font-family: 'PT Mono', Arial;
+	color:rgba(23,51,176,1);}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: rgba(21,56,212,1);
+  color:white;
+}
+
+h2, .h2 {
+	/*font-size: 46px;*/
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #120a8f;
+}
+/*#78e0e4*/
+.form-control:focus {
+  border-color: rgba(138,237,182,1);
+  -webkit-box-shadow: 0 0 18px rgba(138,237,182,1);
+          box-shadow: 2px 2px 4px rgba(138,237,182,1);
+
+}
+
+.zub {
+	display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 10px 10px;
+    margin: -10px 0 5px 0;
+    border: 10px solid transparent;
+    border-width: 10px 0;
+    background-color: hsla(0, 0%, 0%, 0);
+    background-image:
+        -webkit-linear-gradient(#faf8dd, #faf8dd),
+        -webkit-linear-gradient(to bottom right, transparent 100%, #333 100.5%),
+        -webkit-linear-gradient(to bottom left, transparent 100%, #333 100.5%),
+        -webkit-linear-gradient(to top right, transparent 50.5%, #faf8dd 50.5%),
+        -webkit-linear-gradient(to top left, transparent 50.5%, #faf8dd 50.5%);
+    background-image:
+        moz-linear-gradient(#faf8dd, #faf8dd),
+        moz-linear-gradient(to bottom right, transparent 100%, #333 100.5%),
+        moz-linear-gradient(to bottom left, transparent 100%, #333 100.5%),
+        moz-linear-gradient(to top right, transparent 50.5%, #faf8dd 50.5%),
+        moz-linear-gradient(to top left, transparent 50.5%, #faf8dd 50.5%);
+    background-image:
+        linear-gradient(#faf8dd, #faf8dd),
+        linear-gradient(to bottom right, transparent 100%, #333 100.5%),
+        linear-gradient(to bottom left, transparent 100%, #333 100.5%),
+        linear-gradient(to top right, transparent 50.5%, #faf8dd 50.5%),
+        linear-gradient(to top left, transparent 50.5%, #faf8dd 50.5%);
+    background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+    background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+    background-clip: padding-box, border-box, border-box, border-box, border-box;
+    background-origin: padding-box, border-box, border-box, border-box, border-box;
+
+}
+
+.result {
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: rgba(21,212,139,1);
+}
+
+.borderleft {
+    border-left: 1px solid #eee;
+}
+
+
+.source {
+	color: #333;
+}
+
+.butn {
+font-family: 'PT Mono', Arial;
+   background-color: white;
+   border: solid 3px rgba(21,56,212,1);
+   -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+           border-radius: 5px;
+   padding: 12px;
+   display: inline-block;
+   line-height: 15px;
+   color: rgba(23,51,176,1);
+   font-size: 18px;
+
+
+}
+.butn:hover {
+	background-color: rgba(21,56,212,1);
+   border: solid 3px rgba(21,56,212,1);
+   color: white;
+}
+
+.butn:active {
+	background-color: rgba(138,237,182,1);
+   border: solid 3px rgba(138,237,182,1);
+   text-align: center;
+   color: white;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #C7C7C7;
+border-color: #BCBCBC;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+color: #fff;
+background-color: rgba(21,56,212,1);
+border-color: rgba(21,56,212,1);
+
+
+
+
+input, .btn, .btn-success, .btn-lg { outline: none;}
