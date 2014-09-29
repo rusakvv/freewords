@@ -7,7 +7,7 @@ function checkForm() {
 };
 
 
-function datePropisRU(){ // функция дата прописью
+function datePropisRU(){ // функция дата прописью ахаха
 
 
 
